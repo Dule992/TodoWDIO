@@ -40,3 +40,8 @@ Background: Open a Todo Web application
         | Task 1 |
         | Task 2 |
         | Task 3 |
+
+@NewTask
+Scenario: Add new task
+    When I enter a "Task New" of new Task
+    Then I should see "Task New" in Task list
