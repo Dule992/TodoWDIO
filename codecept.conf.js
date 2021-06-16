@@ -37,7 +37,8 @@ exports.config = {
       screenshotsForAllureReport: true
     },
     allure: {
-      enabled: true
+      enabled: true,
+      outputDir: './output/allure/allure-results'
     }
   },
   tests: './*_test.js',

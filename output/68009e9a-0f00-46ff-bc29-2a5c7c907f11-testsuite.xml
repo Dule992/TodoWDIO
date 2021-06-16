@@ -1,0 +1,530 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1623850701038' stop='1623850738946'>
+    <name>TODO MVC</name>
+    <title>TODO MVC</title>
+    <test-cases>
+        <test-case start='1623850710621' status='passed' stop='1623850715378'>
+            <name>Create a new To Do Task @Create&amp;ReadTask</name>
+            <title>Create a new To Do Task @Create&amp;ReadTask</title>
+            <labels>
+                <label name='tag' value='@Create&amp;ReadTask'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1623850714685' status='passed' stop='1623850715046'>
+                    <name>When I enter a "Task 1" of new Task </name>
+                    <title>When I enter a "Task 1" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850714685' status='passed' stop='1623850714884'>
+                            <name>I fill field "What needs to be done?", "Task 1"</name>
+                            <title>I fill field "What needs to be done?", "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 1"' source='b540f02f-2692-4463-afaa-655becfa9468-attachment.png' type='image/png' size='28848'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850714885' status='passed' stop='1623850715046'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='44353faf-9751-417c-bb12-8a0a047d6f6b-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850715046' status='passed' stop='1623850715377'>
+                    <name>Then I should see "Task 1" in Tasks list </name>
+                    <title>Then I should see "Task 1" in Tasks list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850715046' status='passed' stop='1623850715225'>
+                            <name>I see "Task 1", ".todo-list"</name>
+                            <title>I see "Task 1", ".todo-list"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task 1", ".todo-list"' source='f5ffb274-a1ca-4bd5-ba40-e4fb95615f05-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850715226' status='passed' stop='1623850715375'>
+                            <name>I see "1 item left", ".todo-count"</name>
+                            <title>I see "1 item left", ".todo-count"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "1 item left", ".todo-count"' source='8f76bcaf-1c19-4ff6-b967-a9b91330dd39-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "https://todomvc.com/examples/angular2/"' source='333b8917-a40a-4588-8ace-acc84affa9eb-attachment.png' type='image/png' size='16383'/>
+                <attachment title='Screenshot of step I see "todos"' source='81523389-7dfc-4f32-aaf5-2813ee4cd19d-attachment.png' type='image/png' size='32349'/>
+                <attachment title='Screenshot of step I dont see element ".todo-count"' source='98d3812f-68e1-46fe-8b5d-9210ff4a7f2c-attachment.png' type='image/png' size='32349'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623850715431' status='passed' stop='1623850720726'>
+            <name>Update a created Task @UpdateTask</name>
+            <title>Update a created Task @UpdateTask</title>
+            <labels>
+                <label name='tag' value='@UpdateTask'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1623850719036' status='passed' stop='1623850719405'>
+                    <name>When I enter a "Task 1" of new Task </name>
+                    <title>When I enter a "Task 1" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850719036' status='passed' stop='1623850719241'>
+                            <name>I fill field "What needs to be done?", "Task 1"</name>
+                            <title>I fill field "What needs to be done?", "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 1"' source='758eac8b-e477-4610-be64-a8a13d46edb5-attachment.png' type='image/png' size='28848'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850719241' status='passed' stop='1623850719405'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='e8874dd2-00f5-451f-a4c7-63d4df09e134-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850719405' status='passed' stop='1623850720453'>
+                    <name>And I update a "Task 1" Task with "Task 1.2" </name>
+                    <title>And I update a "Task 1" Task with "Task 1.2" </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850719405' status='passed' stop='1623850719649'>
+                            <name>I double click "//label[contains(text(),'Task 1')]"</name>
+                            <title>I double click "//label[contains(text(),'Task 1')]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I double click "//label[contains(text(),&apos;Task 1&apos;)]"' source='83b8c96f-e2f3-430b-873d-f83239dce67f-attachment.png' type='image/png' size='37034'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850719650' status='passed' stop='1623850719821'>
+                            <name>I click "//input[@class='edit']"</name>
+                            <title>I click "//input[@class='edit']"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//input[@class=&apos;edit&apos;]"' source='713067c0-aac0-46e5-9c80-72b3dda836e9-attachment.png' type='image/png' size='37060'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850719821' status='passed' stop='1623850720026'>
+                            <name>I press key ["Ctrl","A"]</name>
+                            <title>I press key ["Ctrl","A"]</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key ["Ctrl","A"]' source='2faac8fa-e2b9-423a-8ceb-6557752a80dc-attachment.png' type='image/png' size='36536'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850720026' status='passed' stop='1623850720152'>
+                            <name>I press key "Backspace"</name>
+                            <title>I press key "Backspace"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Backspace"' source='f1cd6c0f-b0a0-444f-9d8b-d15a1e651a33-attachment.png' type='image/png' size='35071'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850720152' status='passed' stop='1623850720321'>
+                            <name>I fill field "//input[@class='edit']", "Task 1.2"</name>
+                            <title>I fill field "//input[@class='edit']", "Task 1.2"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "//input[@class=&apos;edit&apos;]", "Task 1.2"' source='1cddf5da-7f6b-4a16-8bbb-f32467c75bb0-attachment.png' type='image/png' size='37625'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850720321' status='passed' stop='1623850720453'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='22feba8b-9de1-4852-9bcd-e1fc73221867-attachment.png' type='image/png' size='38422'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850720453' status='passed' stop='1623850720726'>
+                    <name>Then I should see "Task 1.2" in Tasks list </name>
+                    <title>Then I should see "Task 1.2" in Tasks list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850720453' status='passed' stop='1623850720588'>
+                            <name>I see "Task 1.2", ".todo-list"</name>
+                            <title>I see "Task 1.2", ".todo-list"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task 1.2", ".todo-list"' source='aa4231bc-9de0-481c-b82b-a09d911e1d79-attachment.png' type='image/png' size='38422'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850720588' status='passed' stop='1623850720721'>
+                            <name>I see "1 item left", ".todo-count"</name>
+                            <title>I see "1 item left", ".todo-count"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "1 item left", ".todo-count"' source='2dd03101-4f6c-469a-8815-1d6f3c51a1d8-attachment.png' type='image/png' size='38422'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "https://todomvc.com/examples/angular2/"' source='526158cc-bd0b-4ab8-bea3-1b5ef9f6fc64-attachment.png' type='image/png' size='16383'/>
+                <attachment title='Screenshot of step I see "todos"' source='065a1104-bdac-464d-a821-84d909896ee7-attachment.png' type='image/png' size='32349'/>
+                <attachment title='Screenshot of step I dont see element ".todo-count"' source='3552627a-b84f-40a6-8699-f61bdbdc23af-attachment.png' type='image/png' size='32349'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623850720769' status='passed' stop='1623850725109'>
+            <name>Delete a created Task @DeleteTask</name>
+            <title>Delete a created Task @DeleteTask</title>
+            <labels>
+                <label name='tag' value='@DeleteTask'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1623850724247' status='passed' stop='1623850724589'>
+                    <name>When I enter a "Task 1" of new Task </name>
+                    <title>When I enter a "Task 1" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850724247' status='passed' stop='1623850724435'>
+                            <name>I fill field "What needs to be done?", "Task 1"</name>
+                            <title>I fill field "What needs to be done?", "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 1"' source='91574997-af38-4665-81e1-19f897e70398-attachment.png' type='image/png' size='28848'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850724435' status='passed' stop='1623850724589'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='17c48758-bb86-42ab-9f52-0fb154657727-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850724589' status='passed' stop='1623850724928'>
+                    <name>And I delete a "Task 1" Task </name>
+                    <title>And I delete a "Task 1" Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850724589' status='passed' stop='1623850724754'>
+                            <name>I click "//label[contains(text(),'Task 1')]"</name>
+                            <title>I click "//label[contains(text(),'Task 1')]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//label[contains(text(),&apos;Task 1&apos;)]"' source='50f3f4e1-0d8f-4c0f-8dc5-2b54740c7db7-attachment.png' type='image/png' size='37905'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850724754' status='passed' stop='1623850724927'>
+                            <name>I click "//ul[1]/li[1]/div[1]/button[1]"</name>
+                            <title>I click "//ul[1]/li[1]/div[1]/button[1]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//ul[1]/li[1]/div[1]/button[1]"' source='9330b04a-08fd-4a7f-8935-08183124ae7e-attachment.png' type='image/png' size='32321'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850724928' status='passed' stop='1623850725109'>
+                    <name>Then I should not see "Task 1" in Task list </name>
+                    <title>Then I should not see "Task 1" in Task list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850724928' status='passed' stop='1623850725107'>
+                            <name>I dont see "Task 1"</name>
+                            <title>I dont see "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I dont see "Task 1"' source='eb8c95b9-3391-4a93-ab60-1b81dfe655c1-attachment.png' type='image/png' size='32321'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "https://todomvc.com/examples/angular2/"' source='73af1a13-729e-400b-aba1-24b7ad2c713c-attachment.png' type='image/png' size='16383'/>
+                <attachment title='Screenshot of step I see "todos"' source='7b152bf3-db3c-4de3-82ff-59a2061da107-attachment.png' type='image/png' size='32349'/>
+                <attachment title='Screenshot of step I dont see element ".todo-count"' source='3e01c4d2-83dd-42cf-b291-af9f1389f705-attachment.png' type='image/png' size='32349'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623850725155' status='passed' stop='1623850729009'>
+            <name>Set Task to Done @DoneTask</name>
+            <title>Set Task to Done @DoneTask</title>
+            <labels>
+                <label name='tag' value='@DoneTask'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1623850728112' status='passed' stop='1623850728447'>
+                    <name>When I enter a "Task 1" of new Task </name>
+                    <title>When I enter a "Task 1" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850728112' status='passed' stop='1623850728307'>
+                            <name>I fill field "What needs to be done?", "Task 1"</name>
+                            <title>I fill field "What needs to be done?", "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 1"' source='44884801-dbea-4f31-9edb-520bda9c22b0-attachment.png' type='image/png' size='28848'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850728307' status='passed' stop='1623850728447'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='d0c1689e-3b6f-4278-9958-589eed3f79cb-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850728447' status='passed' stop='1623850728846'>
+                    <name>And I select a "Task 1" to Done </name>
+                    <title>And I select a "Task 1" to Done </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850728447' status='passed' stop='1623850728664'>
+                            <name>I click "//label[contains(text(),'Task 1')]"</name>
+                            <title>I click "//label[contains(text(),'Task 1')]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//label[contains(text(),&apos;Task 1&apos;)]"' source='ebd7456f-439e-48d3-ae3b-b7feb8e94440-attachment.png' type='image/png' size='37905'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850728664' status='passed' stop='1623850728846'>
+                            <name>I click "//ul[1]/li[1]/div[1]/input[1]"</name>
+                            <title>I click "//ul[1]/li[1]/div[1]/input[1]"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I click "//ul[1]/li[1]/div[1]/input[1]"' source='89eced5c-9178-4012-85b4-894ad9ac41db-attachment.png' type='image/png' size='41286'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850728846' status='passed' stop='1623850729009'>
+                    <name>Then I should see "Task 1" with crossed out line </name>
+                    <title>Then I should see "Task 1" with crossed out line </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850728846' status='passed' stop='1623850729007'>
+                            <name>I see "Task 1", "//li[@class='completed']"</name>
+                            <title>I see "Task 1", "//li[@class='completed']"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task 1", "//li[@class=&apos;completed&apos;]"' source='40e462c9-e2f5-45c6-99ac-b6c3caba903f-attachment.png' type='image/png' size='41050'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "https://todomvc.com/examples/angular2/"' source='3fbd5bc6-8459-4761-9f76-02d827aba3c0-attachment.png' type='image/png' size='16383'/>
+                <attachment title='Screenshot of step I see "todos"' source='4d4f472f-e579-4ec7-9183-854f2500400b-attachment.png' type='image/png' size='32349'/>
+                <attachment title='Screenshot of step I dont see element ".todo-count"' source='a055083c-2992-41b9-a247-6aa8832b16a6-attachment.png' type='image/png' size='32349'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623850729058' status='passed' stop='1623850734491'>
+            <name>Grab all tasks @GrabTasks</name>
+            <title>Grab all tasks @GrabTasks</title>
+            <labels>
+                <label name='tag' value='@GrabTasks'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1623850732954' status='passed' stop='1623850733303'>
+                    <name>When I enter a "Task 1" of new Task </name>
+                    <title>When I enter a "Task 1" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850732954' status='passed' stop='1623850733148'>
+                            <name>I fill field "What needs to be done?", "Task 1"</name>
+                            <title>I fill field "What needs to be done?", "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 1"' source='446620c4-3a88-4282-a459-139bb959020e-attachment.png' type='image/png' size='28848'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850733149' status='passed' stop='1623850733303'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='314302fb-6f05-4d1c-a527-c1d97628b78d-attachment.png' type='image/png' size='37456'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850733303' status='passed' stop='1623850733650'>
+                    <name>And I enter a "Task 2" of new Task </name>
+                    <title>And I enter a "Task 2" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850733303' status='passed' stop='1623850733502'>
+                            <name>I fill field "What needs to be done?", "Task 2"</name>
+                            <title>I fill field "What needs to be done?", "Task 2"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 2"' source='7f642d7e-b187-41b4-ab1f-5de81748064a-attachment.png' type='image/png' size='34173'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850733502' status='passed' stop='1623850733650'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='75b81d99-23e3-4a09-866d-80c15c8be3a7-attachment.png' type='image/png' size='41236'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850733650' status='passed' stop='1623850734075'>
+                    <name>And I enter a "Task 3" of new Task </name>
+                    <title>And I enter a "Task 3" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850733650' status='passed' stop='1623850733910'>
+                            <name>I fill field "What needs to be done?", "Task 3"</name>
+                            <title>I fill field "What needs to be done?", "Task 3"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task 3"' source='5f065eba-16f0-43c4-911e-2b8a828fba2a-attachment.png' type='image/png' size='37643'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850733910' status='passed' stop='1623850734075'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='ce6df1b6-df3b-49ec-bd35-0911409e0f87-attachment.png' type='image/png' size='44666'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850734075' status='passed' stop='1623850734491'>
+                    <name>Then I should see all task in Tasks list </name>
+                    <title>Then I should see all task in Tasks list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850734075' status='passed' stop='1623850734221'>
+                            <name>I see "Task 1"</name>
+                            <title>I see "Task 1"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task 1"' source='7ee05531-8e14-4a72-8774-97efae62fda5-attachment.png' type='image/png' size='44666'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850734221' status='passed' stop='1623850734221'>
+                            <name>Task 1</name>
+                            <title>Task 1</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1623850734221' status='passed' stop='1623850734355'>
+                            <name>I see "Task 2"</name>
+                            <title>I see "Task 2"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task 2"' source='0939ae69-3a32-4548-8879-aa32a2be8502-attachment.png' type='image/png' size='44646'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850734355' status='passed' stop='1623850734355'>
+                            <name>Task 2</name>
+                            <title>Task 2</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1623850734355' status='passed' stop='1623850734488'>
+                            <name>I see "Task 3"</name>
+                            <title>I see "Task 3"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task 3"' source='cd3dcb42-8037-408c-8c84-7f30dfa34952-attachment.png' type='image/png' size='44646'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850734488' status='passed' stop='1623850734488'>
+                            <name>Task 3</name>
+                            <title>Task 3</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "https://todomvc.com/examples/angular2/"' source='6c1e5798-6c52-4bb5-bbb2-456505a89fb1-attachment.png' type='image/png' size='16383'/>
+                <attachment title='Screenshot of step I see "todos"' source='7b923ea2-0360-4a19-8c37-5fb3692d5f57-attachment.png' type='image/png' size='32349'/>
+                <attachment title='Screenshot of step I dont see element ".todo-count"' source='5cd7bcfb-ba30-4b47-82f4-826e296b39e3-attachment.png' type='image/png' size='32349'/>
+            </attachments>
+        </test-case>
+        <test-case start='1623850734534' status='passed' stop='1623850738897'>
+            <name>Add new task @NewTask</name>
+            <title>Add new task @NewTask</title>
+            <labels>
+                <label name='tag' value='@NewTask'/>
+            </labels>
+            <parameters/>
+            <steps>
+                <step start='1623850738237' status='passed' stop='1623850738591'>
+                    <name>When I enter a "Task New" of new Task </name>
+                    <title>When I enter a "Task New" of new Task </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850738237' status='passed' stop='1623850738433'>
+                            <name>I fill field "What needs to be done?", "Task New"</name>
+                            <title>I fill field "What needs to be done?", "Task New"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I fill field "What needs to be done?", "Task New"' source='deb2acd1-537f-48f0-baa7-7e5c4bc804a2-attachment.png' type='image/png' size='30233'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850738434' status='passed' stop='1623850738591'>
+                            <name>I press key "Enter"</name>
+                            <title>I press key "Enter"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I press key "Enter"' source='0be346ea-d843-4dff-a164-4d6177cb4c1d-attachment.png' type='image/png' size='38704'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1623850738591' status='passed' stop='1623850738897'>
+                    <name>Then I should see "Task New" in Tasks list </name>
+                    <title>Then I should see "Task New" in Tasks list </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1623850738591' status='passed' stop='1623850738747'>
+                            <name>I see "Task New", ".todo-list"</name>
+                            <title>I see "Task New", ".todo-list"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "Task New", ".todo-list"' source='d47f9658-1ed2-4381-bc80-5e79439b4100-attachment.png' type='image/png' size='38704'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1623850738747' status='passed' stop='1623850738895'>
+                            <name>I see "1 item left", ".todo-count"</name>
+                            <title>I see "1 item left", ".todo-count"</title>
+                            <attachments>
+                                <attachment title='Screenshot of step I see "1 item left", ".todo-count"' source='c13aa6d7-5519-4c6c-891f-17ac6fa3f625-attachment.png' type='image/png' size='38704'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot of step I am on page "https://todomvc.com/examples/angular2/"' source='2bd8a7d8-0bfb-4eca-be6b-d0cfe0313519-attachment.png' type='image/png' size='16383'/>
+                <attachment title='Screenshot of step I see "todos"' source='54110f63-b797-4f42-b153-9c935cb971d0-attachment.png' type='image/png' size='32349'/>
+                <attachment title='Screenshot of step I dont see element ".todo-count"' source='a3af3f5c-e924-49f5-99b4-9aebabbeac30-attachment.png' type='image/png' size='32349'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
