@@ -36,6 +36,9 @@ exports.config = {
       enabled: true,
       screenshotsForAllureReport: true
     },
+    allure: {
+      enabled: true
+    }
   },
   tests: './*_test.js',
   name: 'TodoWDIO'
